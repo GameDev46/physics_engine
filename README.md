@@ -43,6 +43,12 @@ Instructions are included within the application and can be toggle on and off wi
 **Front Side Mouse Button / Q Key** - Create a new node
 **Back Side Mouse Button / E Key over node** - Destroy the node
 
+If you wish to edit the program or just change the UI or colours to your liking, open the [main C++ file](/Physics%20Engine%20V0.4.1/main.cpp) using an appropriate code editing software and then when you are finished editing the code simply run the command...
+
+<pre>g++ main.cpp -o physicsEngineModded.exe -O1 -Wall -std=c++11 -Wno-missing-braces -I include/ -L lib/ -lraylib -lopengl32 -lgdi32 -lwinmm</pre>
+
+...to compile your new code into an exe file. You will however need to install the g++ compiler if you haven't already done so, but a useful tutorial can be found on the [official VS code website](https://code.visualstudio.com/docs/cpp/config-mingw) (note that this is for both C and C++). Once this is done simply run the physicsEngineModded.exe file and watch as your changes come to life in your new version!
+
 # Screenshots
 
 <p>
@@ -50,3 +56,22 @@ Instructions are included within the application and can be toggle on and off wi
   &nbsp;
   <img src="https://github.com/GameDev46/physics_engine/assets/76485006/a3265fe3-a8b2-4650-a899-66294f30a7e4" height="300">
 </p>
+
+# Update Log
+
+[**V0.3.1**](/Physics%20Engine%20V0.3.1)
+
+- Initial release
+
+[**V0.3.2**](/Physics%20Engine%20V0.3.2)
+
+- Bug fixes
+- UI changes and fixes
+- More customisation options (spring constant)
+
+[**V0.4.1**](/Physics%20Engine%20V0.4.1)
+
+- Bug fixes (again)
+- Some more UI changes + fixes
+- Natural length of springs can now be edited
+- More stable simulation
