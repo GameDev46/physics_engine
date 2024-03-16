@@ -31,3 +31,22 @@ A 2D physics engine programmed in C++ that makes use of verlet integration to so
 
 # Usage
 
+You may use any version of the physics engine you would like, but I reccomend using the [newest version](/Physics%20Engine%20V0.4.1) as it will be less buggy and probably have mre features than the versions before it!
+
+Instructions are included within the application and can be toggle on and off with the H key:
+
+**P Key** - Pause / Play the simulation
+**Left Click and Hold** - Pan camera / Move node
+**Right Click on Node and then Right Click on another Node** - Creates a spring joint between the 2 nodes
+**Right Click twice on Node** - Switches the node between being frozen in place and being able to move
+**Middle Mouse Button / F Key over node** - View any connected springs properties
+**Front Side Mouse Button / Q Key** - Create a new node
+**Back Side Mouse Button / E Key over node** - Destroy the node
+
+# Screenshots
+
+<p>
+  <img src="https://github.com/GameDev46/physics_engine/assets/76485006/d313adc0-f2b4-42ff-a223-2bc998def855" height="300">
+  &nbsp;
+  <img src="https://github.com/GameDev46/physics_engine/assets/76485006/a3265fe3-a8b2-4650-a899-66294f30a7e4" height="300">
+</p>
