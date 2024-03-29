@@ -96,6 +96,7 @@ If you wish to edit the program or just change the UI or colours to your liking,
 [**V0.5.1**](/Physics%20Engine%20V0.5.1)
 
 - UI updates
+- Added panel icons
 - Extra inspector panel to make editing objects properties easier
 - Fixed some more UI bugs
 - Added in a better collision system using momentum (can be toggled to the previous version)
