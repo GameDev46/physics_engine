@@ -1,6 +1,6 @@
 <a href="https://github.com/GameDev46" title="Go to GitHub repo">
     <img src="https://img.shields.io/static/v1?label=GameDev46&message=|&color=Green&logo=github&style=for-the-badge&labelColor=1f1f22" alt="GameDev46 - grass_sim">
-    <img src="https://img.shields.io/badge/Version-0.5.4-green?style=for-the-badge&labelColor=1f1f22&color=Green" alt="GameDev46 - CPP_Projects">
+    <img src="https://img.shields.io/badge/Version-0.5.5-green?style=for-the-badge&labelColor=1f1f22&color=Green" alt="GameDev46 - CPP_Projects">
 </a>
 
 
@@ -30,7 +30,7 @@ A 2D physics engine programmed in C++ that makes use of verlet integration to so
 
 # Usage
 
-You may use any version of the physics engine you would like, but I reccomend using the [newest version](/Physics%20Engine%20V0.5.4) as it will be less buggy and probably have mre features than the versions before it!
+You may use any version of the physics engine you would like, but I reccomend using the [newest version](/Physics%20Engine%20V0.5.5) as it will be less buggy and probably have mre features than the versions before it!
 
 Instructions are included within the application and can be toggle on and off with the H key:
 
@@ -42,7 +42,7 @@ Instructions are included within the application and can be toggle on and off wi
 **Front Side Mouse Button / Q Key** - Create a new node
 **Back Side Mouse Button / E Key over node** - Destroy the node
 
-If you wish to edit the program or just change the UI or colours to your liking, open the [main C++ file](/Physics%20Engine%20V0.5.4/main.cpp) using an appropriate code editing software and then when you are finished editing the code simply run the command...
+If you wish to edit the program or just change the UI or colours to your liking, open the [main C++ file](/Physics%20Engine%20V0.5.5/main.cpp) using an appropriate code editing software and then when you are finished editing the code simply run the command...
 
 <pre>g++ main.cpp -o physicsEngineModded.exe -O1 -Wall -std=c++11 -Wno-missing-braces -I include/ -L lib/ -lraylib -lopengl32 -lgdi32 -lwinmm</pre>
 
@@ -95,15 +95,20 @@ If you wish to edit the program or just change the UI or colours to your liking,
 
 [**V0.5.1**](/Physics%20Engine%20V0.5.1)
 
-- UI updates
 - Added panel icons
 - Extra inspector panel to make editing objects properties easier
 - Fixed some more UI bugs where values would not set properly
 - Added in a better collision system using momentum (can be toggled to the previous version)
 - Added in ability to toggle whether an object can collide or not
+- Fixed a bug where Gravitational Potential Energy was not calculated correctly
 
 [**V0.5.4**](/Physics%20Engine%20V0.5.4)
 
-- UI updates
 - Added in a new save and load panel
 - Fixed UI bug where texboxes would change whenever the user clicked
+
+[**V0.5.5**](/Physics%20Engine%20V0.5.5)
+
+- Added in a new widget which can help to stop users from accidentally rewriting save files
+- Fixed a bug where loading non-existent files crashed the program
+- Switched the system energy value from Kilojoules to Megajoules
