@@ -30,7 +30,7 @@ A 2D physics engine programmed in C++ that makes use of verlet integration to so
 
 # Usage
 
-You may use any version of the physics engine you would like, but I reccomend using the [newest version](/Physics%20Engine%20V0.5.5) as it will be less buggy and probably have mre features than the versions before it!
+You may use any version of the physics engine you would like, but I reccomend using the [newest version](/Physics%20Engine%20V0.5.5) as it will be more stable and have a larger variety of features and tools than the versions before it!
 
 Instructions are included within the application and can be toggle on and off with the H key:
 
