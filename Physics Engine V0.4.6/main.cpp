@@ -16,10 +16,7 @@
 	replit: https://replit.com/@GameDev46
 	youtube: https://www.youtube.com/@gamedev46
 	twitter: https://twitter.com/GameDev46
-
-	Give clear and visible credit if using! (much appreciated 😄)
-
- 	PLEASE DO NOT REMOVE THESE CREDITS!
+	github: https://github.com/GameDev46
 */
 
 // Include the raylib library
