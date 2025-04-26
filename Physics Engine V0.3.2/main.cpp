@@ -13,10 +13,8 @@
 /* 
 	AUTHOR: GameDev46
 
-	replit: https://replit.com/@GameDev46
-	youtube: https://www.youtube.com/@gamedev46
-	twitter: https://twitter.com/GameDev46
-	github: https://github.com/GameDev46
+	Youtube: https://www.youtube.com/@gamedev46
+	Github: https://github.com/GameDev46
 */
 
 // Include the raylib library
